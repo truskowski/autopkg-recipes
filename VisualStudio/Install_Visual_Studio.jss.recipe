@@ -5,36 +5,34 @@
 	<key>Comment</key>
 	<string>Created with Recipe Robot v1.1.2 (https://github.com/homebysix/recipe-robot)</string>
 	<key>Description</key>
-	<string>Downloads the latest version of ApplePiBaker and imports it into your JSS.</string>
+	<string>Downloads the latest version of Install_Visual_Studio and imports it into your JSS.</string>
 	<key>Identifier</key>
-	<string>com.github.truskowski.jss.ApplePiBaker</string>
+	<string>com.github.truskowski.jss.Install_Visual_Studio</string>
 	<key>Input</key>
 	<dict>
 		<key>APP_FILENAME</key>
-		<string>ApplePi-Baker</string>
+		<string>Install Visual Studio for Mac</string>
 		<key>CATEGORY</key>
 		<string>Productivity</string>
 		<key>GROUP_NAME</key>
 		<string>%NAME%-update-smart</string>
 		<key>GROUP_TEMPLATE</key>
-		<string>SmartGroupTemplate.xml</string>
+		<string>CFBundleVersionSmartGroupTemplate.xml</string>
 		<key>NAME</key>
-		<string>ApplePiBaker</string>
+		<string>Install_Visual_Studio</string>
 		<key>POLICY_CATEGORY</key>
 		<string>Testing</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>PolicyTemplate.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string>Restore/Backup Utility, initially intended for Raspberry Pi users, but very suitable for all SD cards and external disks.</string>
+		<string>GroupDocs.Metadata for .NET provides public classes and interfaces to create, manipulate, clean, search and compare metadata associated with Microsoft Office Document, Email, PDF and Image formats.</string>
 		<key>SELF_SERVICE_ICON</key>
 		<string>%NAME%.png</string>
-		<key>pkg_path</key>
-		<string></string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.truskowski.pkg.ApplePiBaker</string>
+	<string>com.github.truskowski.pkg.Install_Visual_Studio</string>
 	<key>Process</key>
 	<array>
 		<dict>
@@ -42,6 +40,13 @@
 			<dict>
 				<key>category</key>
 				<string>%CATEGORY%</string>
+				<key>extension_attributes</key>
+				<array>
+					<dict>
+						<key>ext_attribute_path</key>
+						<string>CFBundleVersionExtensionAttribute.xml</string>
+					</dict>
+				</array>
 				<key>groups</key>
 				<array>
 					<dict>
@@ -54,7 +59,7 @@
 					</dict>
 				</array>
 				<key>jss_inventory_name</key>
-				<string>ApplePi-Baker</string>
+				<string>Install Visual Studio for Mac</string>
 				<key>policy_category</key>
 				<string>%POLICY_CATEGORY%</string>
 				<key>policy_template</key>
