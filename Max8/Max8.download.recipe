@@ -7,8 +7,12 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Max.</string>
 	<key>Identifier</key>
-	<string>com.github.truskowski.download.Max</string>
+	<string>com.github.truskowski.download.Max8</string>
 	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>Max8</string>
+	</dict>
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>Process</key>

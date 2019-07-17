@@ -7,18 +7,18 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Max and creates a package.</string>
 	<key>Identifier</key>
-	<string>com.github.truskowski.pkg.Max</string>
+	<string>com.github.truskowski.pkg.Max8</string>
 	<key>Input</key>
 	<dict>
 		<key>BUNDLE_ID</key>
 		<string>com.cycling74.Max</string>
 		<key>NAME</key>
-		<string>Max</string>
+		<string>Max8</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.truskowski.download.Max</string>
+	<string>com.github.truskowski.download.Max8</string>
 	<key>Process</key>
 	<array>
 		<dict>
