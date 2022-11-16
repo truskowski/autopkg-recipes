@@ -3,15 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>Comment</key>
-	<string>Created with Recipe Robot v1.0.5 (https://github.com/homebysix/recipe-robot)</string>
+	<string>Created with Recipe Robot v2.1.0 (https://github.com/homebysix/recipe-robot)</string>
 	<key>Description</key>
 	<string>Downloads the latest version of DigiExam and creates a package.</string>
 	<key>Identifier</key>
 	<string>com.github.truskowski.pkg.DigiExam</string>
 	<key>Input</key>
 	<dict>
-		<key>BUNDLE_ID</key>
-		<string>se.digiexam.DigiExam</string>
 		<key>NAME</key>
 		<string>DigiExam</string>
 	</dict>
