@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Digiexam.</string>
 	<key>Identifier</key>
-	<string>org.berkeleycarroll.download.Digiexam</string>
+	<string>com.github.truskowski.download.DigiExam<</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
