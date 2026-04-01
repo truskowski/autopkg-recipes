@@ -30,7 +30,7 @@
 		</dict>
 		<dict>
 			<key>Processor</key>
-			<string>EndOfCheckPhase</string>
+			<string>Unarchiver</string>
 		</dict>
 		<dict>
 			<key>Processor</key>
