@@ -16,7 +16,7 @@
 	<key>MinimumVersion</key>
 	<string>2.3</string>
 	<key>ParentRecipe</key>
-	<string>org.berkeleycarroll.download.Digiexam</string>
+	<string>com.github.truskowski.download.DigiExam</string>
 	<key>Process</key>
 	<array>
 		<dict>
