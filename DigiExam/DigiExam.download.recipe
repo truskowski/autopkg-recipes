@@ -21,9 +21,9 @@
 			<key>Arguments</key>
 			<dict>
 				<key>filename</key>
-				<string>%NAME%.dmg</string>
+				<string>%NAME%.app.tar.gz</string>
 				<key>url</key>
-				<string>https://www.digiexam.com/hubfs/client/Digiexam_Mac_universal.dmg</string>
+				<string>https://cdn.crabnebula.app/download/digiexam/digiexam/latest/platform/dmg-universal</string>
 			</dict>
 			<key>Processor</key>
 			<string>URLDownloader</string>
@@ -31,6 +31,10 @@
 		<dict>
 			<key>Processor</key>
 			<string>EndOfCheckPhase</string>
+		</dict>
+		<dict>
+			<key>Processor</key>
+			<string>Unarchiver</string>
 		</dict>
 		<dict>
 			<key>Arguments</key>
